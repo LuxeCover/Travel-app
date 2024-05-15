@@ -28,11 +28,7 @@ const List = ({
   return (
     <Box sx={{ padding: '25px', backgroundColor: theme.palette.common.white }}>
       <Typography variant="h4">
-        Restaurants, Hotels, Attractions around you
-      </Typography>
-      <Typography variant="h6">
-        Is there a place you've wanted to go before?
-        Experience travel easily.
+        Restaurants, Hotels &amp; Attractions around you
       </Typography>
 
       {isLoading ? (
