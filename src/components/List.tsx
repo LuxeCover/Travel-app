@@ -30,6 +30,10 @@ const List = ({
       <Typography variant="h4">
         Restaurants, Hotels &amp; Attractions around you
       </Typography>
+      <Typography variant="h6">
+        Is there a place you've wanted to go before?
+        Experience travel easily.
+      </Typography>
 
       {isLoading ? (
         <Box
