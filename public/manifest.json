@@ -1,5 +1,5 @@
 {
-  "name": "Commune ai 🗺 Travel Advisor",
+  "name": "Commune ai 🗺 Travel Advisor by LuxeCover",
   "short_name": "Travel Advisor",
   "description": "Fully-responsive travel companion and weather checking app built by combining Google Maps API, Travel Advisor API and WeatherAPI.com. Built using Next.js and TypeScript, this app can be used to search for places, fetch restaurant, hotels and attractions based on location.",
   "theme_color": "#42a5f5",
