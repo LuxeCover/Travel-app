@@ -28,14 +28,9 @@ const List = ({
   return (
     <Box sx={{ padding: '25px', backgroundColor: theme.palette.common.white }}>
       <Typography variant="h4">
-        Search Restaurants, Hotels and Attractions around you
+        Restaurants, Hotels &amp; Attractions around you
       </Typography>
-      <Typography variant="h6">
-        Is there a place you've wanted to go before?
-      </Typography>
-      <Typography variant="h6">
-        Experience travel easily.
-      </Typography>
+
       {isLoading ? (
         <Box
           display="flex"
