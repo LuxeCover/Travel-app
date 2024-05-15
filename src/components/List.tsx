@@ -45,7 +45,7 @@ const List = ({
           <FormControl
             sx={{ margin: `${theme.spacing(1)}`, minWidth: 120, marginBottom: '30px' }}
           >
-            <InputLabel>Type</InputLabel>
+            {/* <InputLabel>Type</InputLabel> */}
             <Select value={value} onChange={(e) => setValue(e.target.value)}>
               <MenuItem value="restaurants">Restaurants</MenuItem>
               <MenuItem value="hotels">Hotels</MenuItem>
@@ -56,7 +56,7 @@ const List = ({
           <FormControl
             sx={{ margin: `${theme.spacing(1)}`, minWidth: 120, marginBottom: '30px' }}
           >
-            <InputLabel>Rating</InputLabel>
+            {/* <InputLabel>Rating</InputLabel> */}
             <Select value={rating} onChange={(e) => setRating(e.target.value)}>
               <MenuItem value={0}>All</MenuItem>
               <MenuItem value={3}>Above Star 3.0</MenuItem>
